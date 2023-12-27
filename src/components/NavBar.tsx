@@ -3,11 +3,15 @@ import logo from "../assets/vintage-badge-hand-holding-joystick-vector-illustrat
 import ColorModeSwitch from "./colorModeSwitch";
 import SearchInput from "./SearchInput";
 
-const NavBar = () => {
+interface Props {
+	onSearch: (searchText: string) => void;
+}
+
+const NavBar = ({onSearch}: Props) => {
 	return (
 		<HStack padding="10px">
 			<Image src={logo} boxSize="60px" borderRadius="36px"></Image>
-			<SearchInput></SearchInput>
+			<SearchInput onSearch={onSearch}></SearchInput>
 			<ColorModeSwitch></ColorModeSwitch>
 		</HStack>
 	);
