@@ -35,6 +35,7 @@ const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
 							fontSize="lg"
 							variant="link"
 							fontWeight={genre.id === selectedGenre?.id ? "bold" : "normal"}
+							whiteSpace="wrap"
 						>
 							{genre.name}
 						</Button>
