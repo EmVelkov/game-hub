@@ -11,6 +11,11 @@ Built with React, TypeScript, and Chakra UI, the project is set up with Vite for
 - **Game Skeletons Loading:** Experience a visually appealing loading process with game skeletons while the data is fetched.
 - **Order by Platform:** Organize your game list based on different platforms.
 - **Sort Games:** Easily find what you're looking for by sorting games based on various criteria.
+- **React Router:** Implemented navigation within the application using React Router.
+- **Global State Management:** Used React Context API or Zustand for global state management.
+- **Data Fetching and Caching:** Used React Query for efficient data fetching and caching.
+- **Authentication:** Implemented authentication using Firebase.
+- **Performance Optimization:** Optimized performance with memoization, code splitting, and lazy loading.
 
 ## Getting Started
 
@@ -45,7 +50,7 @@ Follow these steps to set up the project on your local machine:
    ```
 
 5. **Open the app in your browser:**
-   <http://localhost:3000>
+   <https://game-hub-silk-alpha.vercel.app/>
 
 ### Contributing
 
